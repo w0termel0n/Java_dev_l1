@@ -22,9 +22,11 @@
       <change afterPath="$PROJECT_DIR$/assets/tend.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/thoud.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/twend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImagePanel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/InputPanel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/LabelPanel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Money.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Purse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Register.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/RegisterPanel.java" afterDir="false" />
@@ -44,18 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "w0termel0n"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;w0termel0n&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/w0termel0n/Java_dev_lab1.git",
-    "accountId": "ef6d217b-a188-4711-8ce7-2d481c2d97a9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/w0termel0n/Java_dev_lab1.git&quot;,
+    &quot;accountId&quot;: &quot;ef6d217b-a188-4711-8ce7-2d481c2d97a9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -69,6 +71,7 @@
   "keyToString": {
     "Application.MakingChange.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -96,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737682215868</updated>
       <workItem from="1737682217554" duration="14285000" />
+      <workItem from="1737698172170" duration="22000000" />
     </task>
     <servers />
   </component>
