@@ -7,6 +7,7 @@ import javax.swing.*;
 public class InputPanel extends JPanel {
     private JTextField input;
     private JLabel label;
+    private Register register;
 
     public InputPanel() {
         this.setPreferredSize(new Dimension(500, (30 * 13 + 50)));
@@ -19,6 +20,8 @@ public class InputPanel extends JPanel {
         input.setFont(new Font("Monospaced", Font.PLAIN, 12));
         label.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 20));
         input.addActionListener(new Listener());
+
+        register = new Register(new GreedyChangeStrategy());
 
         this.add(input);
         this.add(label);
@@ -34,7 +37,7 @@ public class InputPanel extends JPanel {
                 inp = 0;
             }
 
-            Purse purse = Register.makeChange(inp);
+            Purse purse = register.makeChange(inp);
             String[] strs = purse.toStr();
             String finStr = "<html><br>Your change:<br>";
 
